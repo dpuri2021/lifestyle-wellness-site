@@ -1,0 +1,307 @@
+*{
+    color:#E3DED1;
+}
+
+body{
+    background-color:#5F5A4D;
+   
+
+}
+
+#title{
+  margin:350px;
+  text-align: center;
+  line-height: 1.5;
+  font-family:serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom:5px;
+    color:#faedcd;
+} 
+  
+
+#hero{
+    text-align:center;
+}
+
+#tag{
+  color:#faedcd;
+  margin-top: 10px;
+  font-size:20px;
+  animation: vanish 3s ease-in-out;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:lighter
+}
+
+#phrase{
+  color:#faedcd
+}
+
+#about{
+  margin-top: 500px;
+  line-height: 1.9;
+  margin-bottom:50px
+}
+
+.list1{
+  color: #faedcd;
+  line-height: 2;
+}
+
+#form{
+  background-color:#faedcd;
+  width:350px;
+  min-height: 150px;
+  border-radius: 10px;
+  padding-left: 10px;}
+
+  #signup{
+   
+     margin-top: 50px;
+     color:#30291f
+  }
+
+  #join{
+    color:#30291f;
+    padding-top: 20px;
+  }
+
+.mail{
+  color:#43291f;
+  font-weight: 600;
+}
+
+#explore{
+  margin-top: 50px;
+}
+
+.list2{
+  color:#faedcd;
+  line-height: 2;
+
+}
+
+#fitness {
+margin-top:100px;
+}
+
+#fit{
+    display: flex;             
+    gap: 20px;              
+    margin-top: 50px;
+    line-height: 50px;
+   margin-bottom:420px;
+
+}
+
+#mind{
+    display: flex;             
+    gap: 20px;              
+    margin-top: 50px;
+    line-height: 50px;
+    margin-bottom:420px;
+
+}
+
+#skin{
+    display: flex;             
+    gap: 20px;              
+    margin-top: 50px;
+    line-height: 50px;
+    margin-bottom:420px;
+}
+
+#food {
+    display: flex;             
+    gap: 20px;              
+    margin-top: 50px;
+    line-height: 50px;
+    margin-bottom:350px;
+}
+
+
+.fitness-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: -350px; 
+  margin-bottom: 100px;
+}
+
+.fbtn {
+  background-color: #faedcd;
+  color: #30291f;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fbtn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+
+
+.mindfullness-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: -350px; 
+  margin-bottom: 100px;
+}
+
+.mbtn {
+  background-color: #faedcd;
+  color:#30291f;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mbtn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+
+.skincare-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: -350px; 
+  margin-bottom: 100px;
+}
+
+.sbtn {
+  background-color: #faedcd;
+  color: #30291f;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sbtn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+
+.nutrition-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: -300px; 
+  margin-bottom: 100px;
+}
+
+.nbtn {
+  background-color: #faedcd;
+  color: #30291f;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nbtn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+
+.button:hover {
+  opacity: 0.9;
+  
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size:larger;
+}
+
+ul{
+    font-family:'Courier New', Courier, monospace;
+    font-size:large;
+}
+    
+form{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#foot{ 
+    font-weight:medium;
+    font-family:unset;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    color:#faedcd;
+}
+
+
+#img1, #img2,#img3,#img4 {
+  width: 40%;
+  height: auto;
+  aspect-ratio: 4 / 3; 
+  border-radius: 15px;
+}
+
+#fit img, #mind img, #skin img, #food img {
+  transition: transform 0.3s ease;
+}
+
+#fit img:hover, #mind img:hover, #skin img:hover, #food img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+h1 {
+  animation: slideUp 1.5s ease-out forwards;
+}
+
+@keyframes vanish {
+  0%   { opacity: 0; transform: scale(0.8); }
+  100%  { opacity: 1; transform: scale(1); }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* @keyframes slideRight {
+  from { transform: translateX(-50px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+
+#img1,#img2,#img3,#img4 {
+  animation: slideRight 1.5s ease-out forwards;
+}  */
+  /* not working, as seen only when reload */
+
+
+  
